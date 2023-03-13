@@ -1,14 +1,14 @@
-name: "Conventional Changelog Action"
-description: "Bump version, tag commit and generates changelog with conventional commits."
-author: "Tycho Bokdam"
+name: "Markdown VSCode Contributions Action"
+description: "Generate markdown tables from vscode contributions"
+author: "Jeronimo Ekerdt"
 
 runs:
   using: "node16"
   main: "src/index.js"
 
 branding:
-  icon: "edit"
-  color: "red"
+  icon: "book-open"
+  color: "blue"
 
 inputs:
   github-token:
