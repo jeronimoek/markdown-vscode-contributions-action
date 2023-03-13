@@ -1,7 +1,7 @@
 const core = require("@actions/core");
 const {
   markdownVscodeContributions,
-} = require("markdown-vscode-contributions/dist/cjs");
+} = require("markdown-vscode-contributions");
 
 const git = require("./helpers/git");
 
