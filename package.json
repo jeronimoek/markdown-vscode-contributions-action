@@ -1,0 +1,16 @@
+{
+  "name": "markdown-vscode-contributions-action",
+  "version": "0.0.1",
+  "description": "Github Action that updates a markdown file using the Markdown VSCode Contributions package",
+  "license": "MIT",
+  "author": {
+    "name": "Jeronimo Ekerdt",
+    "email": "jeronimoek@gmail.com"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "@actions/core": "1.10.0",
+    "@actions/exec": "1.1.1",
+    "markdown-vscode-contributions": "0.1.2"
+  }
+}
