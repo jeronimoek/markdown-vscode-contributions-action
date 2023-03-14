@@ -47,6 +47,7 @@ async function run() {
       packagePath,
       inputPath,
       outputPath,
+      options: { rootPaths: false },
     });
 
     const markdownChanged = markdownPrev !== markdownOutput;
