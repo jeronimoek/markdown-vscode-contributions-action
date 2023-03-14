@@ -1,6 +1,6 @@
 import core from "@actions/core";
 import { markdownVscodeContributions } from "markdown-vscode-contributions";
-import git from "./helpers/git";
+import git from "./helpers/git.js";
 
 async function run() {
   try {
@@ -55,7 +55,6 @@ async function run() {
         "Markdown hasn't changed and skip-on-no-changes is enabled so we skip this step"
       );
       core.setOutput("skipped", "true");
-
       return;
     }
 
