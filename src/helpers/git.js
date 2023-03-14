@@ -1,9 +1,9 @@
-const core = require("@actions/core");
-const exec = require("@actions/exec");
+import core from "@actions/core";
+import exec from "@actions/exec";
 
 const { GITHUB_REPOSITORY, ENV } = process.env;
 
-module.exports = new (class Git {
+export default new (class Git {
   constructor() {
     const githubToken = core.getInput("github-token");
 
