@@ -2,7 +2,7 @@
   "name": "markdown-vscode-contributions",
   "displayName": "Markdown VSCode Contributions",
   "description": "Generate markdown tables from vscode contributions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "markdown",
     "tables",

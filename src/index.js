@@ -1,9 +1,6 @@
-const core = require("@actions/core");
-const {
-  markdownVscodeContributions,
-} = require("markdown-vscode-contributions");
-
-const git = require("./helpers/git");
+import core from "@actions/core";
+import { markdownVscodeContributions } from "markdown-vscode-contributions";
+import git from "./helpers/git";
 
 async function run() {
   try {
