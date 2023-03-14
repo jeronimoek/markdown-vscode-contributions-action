@@ -44,9 +44,9 @@ async function run() {
     }
 
     const markdownOutput = markdownVscodeContributions({
-      packagePath,
-      inputPath,
-      outputPath,
+      packagePath: path.join(process.env.GITHUB_WORKSPACE, packagePath),
+      inputPath: path.join(process.env.GITHUB_WORKSPACE, inputPath),
+      outputPath: path.join(process.env.GITHUB_WORKSPACE, outputPath),
       options: { rootPaths: false },
     });
 
