@@ -1,6 +1,6 @@
 {
   "name": "markdown-vscode-contributions-action",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Github Action that updates a markdown file using the Markdown VSCode Contributions package",
   "license": "MIT",
   "type": "module",
