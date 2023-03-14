@@ -1,6 +1,6 @@
 import core from "@actions/core";
 import { markdownVscodeContributions } from "markdown-vscode-contributions";
-import git from "./helpers/git";
+import git from "./helpers/git.js";
 
 async function run() {
   try {
