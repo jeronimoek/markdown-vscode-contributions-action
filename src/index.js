@@ -47,6 +47,7 @@ async function run() {
       packagePath,
       inputPath,
       outputPath,
+      options: { rootPaths: false },
     });
 
     const markdownChanged = markdownPrev !== markdownOutput;
@@ -71,7 +72,6 @@ async function run() {
       } catch (error) {
         console.error(error);
         core.setFailed(error);
-
         return;
       }
     } else {
