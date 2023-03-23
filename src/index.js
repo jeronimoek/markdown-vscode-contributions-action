@@ -58,6 +58,7 @@ async function run() {
         "Markdown hasn't changed and skip-on-no-changes is enabled so we skip this step"
       );
       core.setOutput("skipped", "true");
+
       return;
     }
 
